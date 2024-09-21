@@ -216,7 +216,7 @@
 }
 .menu-item img {
     width: 250px;
-    height: 250px;
+    height: auto;
     margin-bottom: 20px;
 
 
@@ -232,7 +232,33 @@
 }
 
 
+.brand{
+    background-color:white;
+    padding: 20px;
 
+}
+.brand h2{
+    text-align: center;
+    color: #4f3621;
+    font-size: xx-large;
+}
+.under-line{
+    background-color: rgb(168, 98, 28);
+    width: 40px;
+    height: 5px;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.brand-container{
+    display: flex;
+    opacity: 0.3;;
+    justify-content: space-between;
+}
+.brand-container img{
+    width: 200px;
+    height: auto;
+}
 
 
 
