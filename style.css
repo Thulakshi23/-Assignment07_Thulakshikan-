@@ -5,13 +5,19 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.symbol {
-  size: 20px;
-  font-size: 35px;
-  color: white;
-  font-weight: bold;
-}
+.logo{
+    display: flex;
 
+}
+.symbol {
+    font-size: 35px;
+    margin-right: 10px;
+  }
+  .logo span{
+    font-size: 50px;
+    color: #fff;
+    font-weight:bold ;
+  }
 .navbar {
   display: flex;
   align-items: center;
@@ -22,7 +28,7 @@
 .navbar.logo a {
   color: white;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 2px;
   font-weight: bold;
 }
 .nav-links {
@@ -297,3 +303,75 @@
 .copyright{
     font-size: small;
 }
+
+
+
+.contact{
+    background-color:#683f1d;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.contact-container{
+   max-width: 800px;
+   width: 100%;
+
+}
+
+.contact-details{
+    background-color: #9b6b24;
+    border-radius: 10px;
+    text-align: left;
+    width: 50%;
+    padding:20px ;
+    overflow: hidden;
+
+}
+.contact-details p{
+    margin-bottom: 15px;
+    font-size: large;
+}
+.contact-details p a{
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+.contact-form{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.contact-form h2{
+    margin-bottom: 15px;
+}
+
+.u1-line{
+    background-color: rgb(168, 98, 28);
+    width: 30px;
+    height: 4px;
+    border-radius: 15px;
+    margin: 10px auto;
+    
+}
+ .contact-form input, .contact-form textarea{
+    padding: 10px;
+    width: 100%;
+    margin-bottom:15px ;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+
+ }
+
+ .but{
+    background-color: #9b6b24;
+    border-radius: 20px;
+    color: white;
+ }
+ .but:hover{ 
+    background-color: #4f3621;
+ }
